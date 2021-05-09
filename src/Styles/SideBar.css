@@ -1,0 +1,36 @@
+.sidebar {
+  height: 100vh;
+  min-width: 230px;
+  color: white;
+  padding: 0 10px 0 10px;
+  flex: 0.2;
+  background-color: #040404;
+}
+
+.sidebar__logo {
+  margin-right: auto;
+  height: 70px;
+  padding: 10px;
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.sidebar__title {
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #282828 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}
